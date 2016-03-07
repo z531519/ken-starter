@@ -20,7 +20,7 @@ public class GroovyDemo {
             @RequestParam(name = "message", defaultValue = "Hello World!") message,
             @RequestParam(name = "additional", required = false) additional
     ) {
-        new Demo(message: message + "YOEE", additional: additional)
+        new Demo(message: message, additional: additional)
     }
 
 }
