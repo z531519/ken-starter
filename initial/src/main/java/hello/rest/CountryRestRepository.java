@@ -9,7 +9,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
  * @version $Revision: #1 $ submitted $DateTime: 2013/08/29 10:34:55 $ by $Author: vdeleke $
  */
 @RepositoryRestResource(collectionResourceRel = "country", path = "country")
-public interface CountryRepository extends PagingAndSortingRepository<Country, String>{
+public interface CountryRestRepository extends PagingAndSortingRepository<Country, String>{
 
 }
 
